@@ -13,9 +13,9 @@ export default function Lottery({n=3, winCondition}){
             <h1>Lottery Game!</h1>
             <br />
             <p>If your ticket number's sum is 15 then you won :)</p>
-            <Ticket ticket={ticket}/>
-            <button onClick={buyTicket}>Buy New Ticket</button>
-            <h3>{isWinning && "Congratulation,you won :)"}</h3>
+            <Ticket ticket = {ticket}/>
+            <button onClick = {buyTicket}>Buy New Ticket</button>
+            <h3>{isWinning && "Congratulation,you won The Lottery :)"}</h3>
         </div>
     )
 }
